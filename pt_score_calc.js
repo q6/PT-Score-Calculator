@@ -121,12 +121,12 @@ function getOverallScore(userRunTime, userPushUps, userSitUps, userWaist) {
   var overallScore = scoreRun + scorePushUps + scoreSitUps + scoreWaist;
   var overallScoreArray = [scoreRun, scorePushUps, scoreSitUps, scoreWaist];
   console.log("Count          |  " + "RESULT |  Score");
-  console.log()
+  console.log();
   console.log("Run            |   " + didPassDiscipline(overallScoreArray[0]) + "  |  " + overallScoreArray[0]);
   console.log("Push Ups       |   " + didPassDiscipline(overallScoreArray[1]) + "  |  " + overallScoreArray[1]);
   console.log("Sit Ups        |   " + didPassDiscipline(overallScoreArray[2]) + "  |  " + overallScoreArray[2]);
   console.log("Waist          |   " + didPassDiscipline(overallScoreArray[3]) + "  |  " + overallScoreArray[3]);
-  console.log()
+  console.log();
   console.log("Overall Score  |   " + didOverallPass(overallScoreArray) + "  |  " + overallScore);
 }
 
